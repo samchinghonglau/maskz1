@@ -1,0 +1,8 @@
+java Endianness 0  1  2  3 
+Big-Endian: 16909060 Little-Endian:67305985
+
+java Endianness 20 40 60 80
+Big-Endian: 541089920 Little-Endian:-2141175776
+
+java Endianness cc dd ee ff
+Big-Endian: -857870593 Little-Endian:-1122868

@@ -1,0 +1,13 @@
+Comparison:
+time ./sRead 10:                    time ./aRead 10:
+real	0.113s                      real: 0.015s
+
+time ./sRead 100:                   time ./aRead 100:
+real	1.088s                      real: 0.016s
+
+time ./sRead 1000:                  time ./aRead 1000:
+real	10.956s                     real: 0.020s
+
+The reason why aRead is a lot faster than sRead for both small and large number
+of executions is that it uses all CPU resources so that CPU won't be idle while 
+waiting for data return from read.
