@@ -3,9 +3,9 @@ This repository contains all the projects done during the time taking CPSC221 Ba
 
 PA stands for "Programming Assignment".
 
-##### PA1 Speed Kabab handles inventory management. https://www.ugrad.cs.ubc.ca/~cs221/2017W1/mps/p1/pa1.pdf
+##### PA1 Speed Kabab that handles inventory management. https://www.ugrad.cs.ubc.ca/~cs221/2017W1/mps/p1/pa1.pdf
 
-##### PA2 Implementation of data structures. https://www.ugrad.cs.ubc.ca/~cs221/2017W1/mps/p2/pa2.pdf
+##### PA2 Implementations of data structures. https://www.ugrad.cs.ubc.ca/~cs221/2017W1/mps/p2/pa2.pdf
 
 ##### PA3&4 Quadtrees application. https://www.ugrad.cs.ubc.ca/~cs221/2017W1/mps/p34/
 
