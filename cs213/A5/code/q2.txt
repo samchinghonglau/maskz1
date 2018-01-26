@@ -1,0 +1,2 @@
+The bug is a dangling pointer in pop(),
+where it return a pointer e that has just been freed.

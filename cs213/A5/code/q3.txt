@@ -1,0 +1,1 @@
+Q3: List_delete_element frees element although it is being pointed at in tree.c
