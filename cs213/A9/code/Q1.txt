@@ -1,0 +1,19 @@
+If we adjust the assert function to test if buf equal to number other than 
+blockno, we get a fail assertion which means buf is stored in the correct
+blockno. This can be proved by printing out each buf and blockno. 
+
+time ./sRead 10:
+real	0m0.113s
+
+time ./sRead 100:
+real	0m1.088s
+
+time ./sRead 1000: 
+real	0m10.956s
+
+The time needed to read 10 blocks is approximately 0.1s, then for 100 blocks 
+is about 1s and for 1000 blocks it become about 10s. The reason behind this 
+,I believe, is that each buff is corresponded to one blockno, the running time
+for reading a block is constant. In our case, the time took for reading one
+block is about 0.01s. This explains why we get 10 times multiples for each execution,
+and the execution becomes slower and slower for increasing size of executions.
