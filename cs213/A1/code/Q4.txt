@@ -1,0 +1,4 @@
+Because the computer on Hubble used old DF-224 CPU manufactured by Rockwell Autonetics in the 80s, which means it uses Big-Endian. And the problem is running uses i7 from Intel, which means it uses Little-Endian. These might cause the problem that we had since the bytes got reversed. After the reversion on decimal numbers we should get the right value:RA = 521,829 = 0x07F665 => 0x65F607 which is 1,710,622,464 in decimalD = -2,207,359 = 0xFFDE5181 => 0x8151DEFF which is -2,125,340,929 in decimal
+
+
+
